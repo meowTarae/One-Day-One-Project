@@ -1,0 +1,58 @@
+@import "reset.css";
+
+body {
+  background-color: grey;
+
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.mug-cup {
+  background-color: white;
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+
+  border: 10px solid white;
+  border-top: unset;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+
+  box-shadow: 0 0 0 6px #262626;
+
+  background: url("../img/mug-water.jpg");
+  background-repeat: repeat-x;
+  background-position: bottom;
+  /* background-position-y: 400px; */
+  /* -webkit-background-clip: div; */
+  /* background-size: 100% 100%; */
+
+  width: 300px;
+  height: 350px;
+
+  /* animation: fillUpWater 15s linear infinite; */
+
+  position: relative;
+}
+@keyframes fillUpWater {
+  0% {
+    background-position: 0 400px;
+  }
+}
+
+.mug-handle {
+  position: absolute;
+  right: -37.5%;
+  top: 16%;
+  border: 6px solid #262626;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+
+  width: 90px;
+  height: 130px;
+}
