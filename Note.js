@@ -1,3 +1,4 @@
+21-08-15
 -중앙 배열-{
 position: absolute;
 top: 50%;
@@ -13,6 +14,12 @@ align-items: center;
 }
 
 
+
 -글자 뒤에 배경이 오게끔~ webkit 활용!-{
     -webkit-background-clip: text;
 }
+
+
+
+<br>  -> html에서 줄 바꿈
+
