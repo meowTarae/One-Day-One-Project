@@ -1,0 +1,58 @@
+@import "reset.css";
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: url("https://pbs.twimg.com/media/E1wd4WZWEAsHzYA.jpg:large");
+  background-repeat: no-repeat;
+  background-size: 100 100vh;
+}
+
+.clipedBox {
+  /* 박스 위치 조절 */
+  position: absolute;
+  top: 32%;
+  left: 8%;
+
+  /* 박스 사이즈 조절 */
+  width: 800px;
+  height: 600px;
+
+  /* 회전 */
+  transform: rotate(352deg);
+
+  /* 모서리 */
+}
+.clipedBox video {
+  position: absolute;
+  width: 800px;
+  height: 600px;
+  border
+}
+.clipedBox .leftSide {
+  position: absolute;
+  top: 12.5%;
+  left: 0%;
+  width: 60%;
+  height: 75%;
+
+  background: rgba(255, 255, 255, 0.9);
+  mix-blend-mode: screen;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 8.5em;
+  font-weight: 800;
+  line-height: 1.2em;
+  letter-spacing: -10px;
+  text-transform: uppercase;
+}
+.clipedBox .leftSide h2 {
+  transform: scaleY(1.2);
+}
+.clipedBox .leftSide h4 {
+  font-size: 0.9em;
+  line-height: 0.8em;
+}
