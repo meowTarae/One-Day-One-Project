@@ -1,5 +1,7 @@
 @import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
 
+/* font-family: 'Tangerine', cursive; */ /* 이쁜 필기체 폰트 */
 body {
   font-family: Arial, Helvetica, sans-serif;
   background: url("https://pbs.twimg.com/media/E1wd4WZWEAsHzYA.jpg:large");
