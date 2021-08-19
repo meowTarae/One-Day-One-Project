@@ -1,18 +1,17 @@
 @import "reset.css";
-@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Tangerine&display=swap");
 
 /* font-family: 'Tangerine', cursive; */ /* 이쁜 필기체 폰트 */
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background: url("https://pbs.twimg.com/media/E1wd4WZWEAsHzYA.jpg:large");
-  background-repeat: no-repeat;
-  background-size: 100 100vh;
+  background-color: linear-gradient(45deg, #c6517e, #433586);
+  overflow: hidden;
 }
 
 .clipedBox {
   /* 박스 위치 조절 */
   position: absolute;
-  top: 32%;
+  top: 30%;
   left: 8%;
 
   /* 박스 사이즈 조절 */
@@ -26,16 +25,17 @@ body {
 }
 .clipedBox video {
   position: absolute;
-  width: 800px;
-  height: 600px;
-  border
+  width: 1000px;
+  height: 800px;
+  border-top-right-radius: 400px;
+  border-bottom-left-radius: 400px;
 }
 .clipedBox .leftSide {
   position: absolute;
-  top: 12.5%;
+  top: 0%;
   left: 0%;
   width: 60%;
-  height: 75%;
+  height: 120%;
 
   background: rgba(255, 255, 255, 0.9);
   mix-blend-mode: screen;
@@ -47,7 +47,7 @@ body {
 
   font-size: 8.5em;
   font-weight: 800;
-  line-height: 1.2em;
+  line-height: 1.4em;
   letter-spacing: -10px;
   text-transform: uppercase;
 }
